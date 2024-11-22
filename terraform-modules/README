@@ -1,4 +1,4 @@
-# Terraform AWS Modules: VPC, EC2, and IAM User
+#Terraform AWS Modules: VPC, EC2, and IAM User
 
 This project provisions AWS resources using Terraform modules, including a VPC, an EC2 instance, and an IAM user. The configuration is modular, making it easy to manage and reuse.
 
