@@ -76,7 +76,7 @@ Configure default values for your application.
 
 - **nginx-svc**: The release name.
 - **./nginx-svc**: Path to the Helm chart.
-- **-f override-values.yaml**: Is a custom values file used to override the default values 
+- **-f override-values.yml**: Is a custom values file used to override the default values 
 - **--create-namespace**: Creates the namespace if it doesn’t exist.
 - **--namespace nginx**: Deploys to the nginx namespace.
 
