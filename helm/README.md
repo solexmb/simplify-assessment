@@ -42,21 +42,21 @@ A working Kubernetes cluster.
 5. **Values (values.yaml)**
 Configure default values for your application.
 
-**Run the tree command to see the directory structure**:
-```bash
-tree
-.
-├── README.md
-├── nginx-svc
-│   ├── Chart.yaml
-│   ├── charts
-│   ├── templates
-│   │   ├── deployment.yaml
-│   │   ├── ingress.yaml
-│   │   ├── service.yaml
-│   │   └── serviceaccount.yaml
-│   └── values.yaml
-└── override-values.yml
+    **Run the tree command to see the directory structure**:
+    ```bash
+    tree
+    .
+    ├── README.md
+    ├── nginx-svc
+    │   ├── Chart.yaml
+    │   ├── charts
+    │   ├── templates
+    │   │   ├── deployment.yaml
+    │   │   ├── ingress.yaml
+    │   │   ├── service.yaml
+    │   │   └── serviceaccount.yaml
+    │   └── values.yaml
+    └── override-values.yml
 
 ## Step 3: Validate the Chart
 
