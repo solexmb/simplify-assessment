@@ -74,10 +74,10 @@ Configure default values for your application.
    ```bash
    helm upgrade --install nginx-svc ./nginx-svc -f override-values.yml --create-namespace --namespace nginx
 
-   - **nginx-svc**: The release name.
-   - **./nginx-chart**: Path to the Helm chart.
-   - **--create-namespace**: Creates the namespace if it doesn’t exist.
-   - **--namespace nginx**: Deploys to the nginx namespace.
+- **nginx-svc**: The release name.
+- **./nginx-chart**: Path to the Helm chart.
+- **--create-namespace**: Creates the namespace if it doesn’t exist.
+- **--namespace nginx**: Deploys to the nginx namespace.
 
 2. **Verify the deployment**:
    ```bash
