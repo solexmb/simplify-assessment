@@ -75,7 +75,8 @@ Configure default values for your application.
    helm upgrade --install nginx-svc ./nginx-svc -f override-values.yml --create-namespace --namespace nginx
 
 - **nginx-svc**: The release name.
-- **./nginx-chart**: Path to the Helm chart.
+- **./nginx-svc**: Path to the Helm chart.
+- **-f override-values.yaml**: Is a custom values file used to override the default values 
 - **--create-namespace**: Creates the namespace if it doesn’t exist.
 - **--namespace nginx**: Deploys to the nginx namespace.
 
